@@ -1,0 +1,72 @@
+<!DOCTYPEhtml>	 <!--documento html5-->	
+<html lang="it">
+	<head>
+		<meta charset="UTF-8"/>
+		<title> Jourdan Daniel </title>
+	</head>
+	<body>
+	<form action="Pagina2.html">
+		<table border="0">
+			<tr >
+				<td width="60"><label for="txtCognome"> Cognome </label></td>
+				<td width="160"><input name="txtCognome" id="txtCognome" type="text" autocomplete="off" required placeholder="Inserisci cognome" size="30" maxlength="12"/></td>
+			</tr>
+			<tr>
+				<td><label for="txtNome"> Nome </label></td>
+				<td><input name="txtNome" id="txtNome" align="center" size="20" placeholder="Inserisci il tuo nome" autocomplete="off" type="text"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Giorno Mese &nbsp; Anno</td>
+			</tr>
+			<tr>
+				<td>Data di nascita</td>
+				<td><input type="text" autocomplete="off" size="2"/>&nbsp;<input type="text" autocomplete="off"size="2"/>&nbsp;<input type="text" autocomplete="off" size="4"/></td>
+			</tr>
+			<tr>
+			<td>Genere</td>
+				<td><label> M </label>
+				<input type="radio" name="optSettore" autocomplete="off" >
+				<label > F </label>
+				<input  name="optSettore" type="radio" autocomplete="off" >
+				<label > N </label>
+				<input  name="optSettore" type="radio" autocomplete="off" ></td>
+			</tr>
+			<tr>
+			<td><label> Provincia </label></td>
+				<td><select name="istProvincia" id="istProvincia">
+					<option>CN</option>
+					<option>TR</option>
+					<option>AL</option>
+				</select></td>
+			</tr>
+			<tr>
+			<td colspan="2">
+			Secondo quai modalità si desidera ricevere meggiori informazioni?
+			</td>
+			</tr>
+			<tr>
+			<td>
+			(sono ammesse scelte multiple) 
+			</td>
+			<td>
+			<label for="chkOrd"> Posta ordinaria</label>
+				<input name="chkSOrd" id="chkOrd" type="checkbox" autocomplete="off" ><br/>
+				<label for="chkEle"> Posta eletronica </label> 
+				<input name="chkEle"id="chkEle" type="checkbox" autocomplete="off" ><br/>
+				<label for="chkTel"> Telefono </label> 
+				<input name="chkTel"id="chkTel" type="checkbox" autocomplete="off" >
+			</td>
+			</tr>
+			<tr>
+				<td><label for="txtCommenti">Note(specificare eventali richieste particolari)</label></td>
+			</tr>
+			<tr>
+				<td><textarea name="txtCommenti"id="txtCommenti" cols="40" rows="10" autocomplete="off" ></textarea></td>
+			</tr>
+			<tr>
+				<td><input id="btnSubmit" type="submit" autocomplete="off" required value="Invia" ><br/></td>
+			</tr>
+		</table>
+	</form>
+	</body>

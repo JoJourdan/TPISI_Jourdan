@@ -1,0 +1,68 @@
+<!DOCTYPE html>        <!--  documento html5  --> 
+<html lang="it"> 
+   <head> 
+        <meta charset="UTF-8" /> 
+        <title>  Amazon  </title> 
+   </head> 
+   <body> 
+        <p align="center"><img src="img/amazon.png" usemap="#image-map"/></p>
+		
+		<map name="image-map" >
+			<area href="acquista.html" coords="1437,49,1549,8" shape="rect">
+			<area href="index.html" coords="0,49,180,8" shape="rect">
+		</map>
+		
+		<h1 align="center"> Inserisci i dati relativi all'acquisto </h1>
+		<form action="conferma.html">
+			<table align="center">
+				<tr>
+					<td rowspan="2"><p> Luogo di spedizione: </p></td>
+					<td><input id="optDom" required value="domicilio" type="radio" name="optLuogo" autocomplete="off" >
+					<label for="optDom" > domicilio </label></td>
+				</tr>
+				<tr>
+					<td><input id="optUff" value="Ufficio" name="optLuogo" required type="radio" autocomplete="off" >
+					<label for="optUff"> ufficio postale </label></td>
+				</tr>
+				<tr>
+					<td rowspan="2"><p> Opzioni aggiuntive: </p></td>
+					<td><input name="chkAssicurazione" id="chkAssicurazione" type="checkbox" autocomplete="off" >
+					<label for="chkAssicurazione"> assicurazione </label></td>
+				</tr>
+				<tr>
+					<td><input name="chkConsegna"id="chkConsegna" type="checkbox" autocomplete="off" >
+					<label for="chkConsegna"> consegna veloce </label></td>
+				</tr>
+				<tr>
+					<td>
+					<label for="istPagamento" required> Tipo di pagamento </label>
+					</td>
+					<td>
+					<select name="istPagamento" id="istPagamento">
+					<option>visa</option>
+					<option>mastercard</option>
+					<option>american express</option>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<label for="txtNote">Note:</label><br/>
+					</td>
+					<td>
+						<textarea name="txtNote"id="txtNote" cols="20" rows="5" autocomplete="off"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td><input id="btnSubmit" type="submit" value="Invia" ></td>
+				</tr>
+			</table>	
+		</form>
+   </body> 
+</html>
+
+				
+				
+				 
+				
+				 
+				

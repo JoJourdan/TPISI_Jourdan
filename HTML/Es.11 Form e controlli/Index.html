@@ -1,0 +1,53 @@
+<!DOCTYPEhtml>	 <!--documento html5-->	
+<html lang="it">
+	<head>
+		<meta charset="UTF-8"/>
+		<title> Es.11 </title>
+		<h1 align="center"> Form e controlli</h1>
+		<h2 align="center"> Pagina di registrazione </h2>		
+	</head>
+	<body>
+			<form action="Pagina2.html">
+				<label for="txtNome" > Nome: </label>
+				<input name="txtNome" align="center" maxlength="50" size="40" required placeholder="Inserisci il tuo nome" autocomplete="off" type="text" id="txtNome"/><br/>
+				<label for="txtCognome"> Cognome: </label>
+				<input name="txtCognome" id="txtCognome" type="text" autocomplete="off" required placeholder="Inserisci cognome" size="30" maxlength="12"/><br/>
+				<label for="txtPassword"> Password: </label>
+				<input name="txtPassword" id="txtPassword" type="password" autocomplete="off" required placeholder="Inserisci password" size="30" /><br/>
+				<label for="txtEta"> Età: </label>
+				<input name="txtEta" id="txtEta" type="number" autocomplete="off" required placeholder="Inserisci età (18-99)" size="30" min="18" max="99"><br/>
+				<label for="txtImmagineg"> Immagine profilo: </label>
+				<input name="txtImmagine"id="txtImmagine" type="file" autocomplete="off" required placeholder="Scegli l'immagine di profilo"><br/>
+				<p> Hobbies </p>
+				<label for="chkSport"> Sport </label>
+				<input name="chkSport" id="chkSport" type="checkbox" autocomplete="off" >&nbsp; &nbsp; &nbsp;
+				<label for="chkInformatica"> Informatica </label> 
+				<input name="chkInformatica"id="chkInformatica" type="checkbox" autocomplete="off" >&nbsp; &nbsp; &nbsp;
+				<label for="chkCinema"> Cinema </label> 
+				<input name="chkCinema"id="chkCinema" type="checkbox" autocomplete="off" ><br/> 
+				<p> Settore </p>
+				<label for="optItis" > Itis </label>
+				<input id="optItis" value="Itis" type="radio" name="optSettore" autocomplete="off" >&nbsp; &nbsp; &nbsp;
+				<label for="optRagioneria"> Ragioneria </label> 
+				<input id="optRagioneria" value="ragioneria" name="optSettore" type="radio" autocomplete="off" >&nbsp; &nbsp; &nbsp;
+				<label for="optLiceo"> Liceo </label> 
+				<input id="optLiceo" value="liceo" name="optSettore" type="radio" autocomplete="off" ><br/><br/>
+				<label for="istProvincia" required> Provincia di residenza </label>
+				<select name="istProvincia" id="istProvincia">
+					<option>Cuneo</option>
+					<option>Torino</option>
+					<option>Asti</option>
+					<option>Alessandria</option>
+					<option>Vercelli</option>
+					<option>Novara</option>
+					<option>Biella</option>
+					<option>Verbano-Cusio-Ossola</option>
+				</select><br/></br>
+				<label for="txtCommenti">Commenti:</label><br/>
+				<textarea name="txtCommenti"id="txtCommenti" cols="50" rows="7" autocomplete="off" placeholder="Inserisci i tuoi commenti"></textarea> <br/><br/>
+			
+				<input id="btnReset" type="reset" autocomplete="off" required value="Reset">&nbsp; &nbsp; &nbsp;
+				<input id="btnSubmit" type="submit" autocomplete="off" required value="Invia" ><br/>			
+			</form>
+	</body>
+</html>
