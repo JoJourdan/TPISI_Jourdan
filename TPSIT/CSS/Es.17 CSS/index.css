@@ -1,0 +1,32 @@
+p.p3 {
+	color: #009950;
+	font-style:italic;
+	font-weight:bold;
+}
+
+div{
+	height:250px;
+	width:250px;
+	background-color:#546675;
+	background-image: url(img/img12.jpeg);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	margin: 0 auto;
+	text-align: center;
+	line-height:250px;
+	color:rgb(255,255,255);
+}
+#div1{
+	height:250px;
+	width:250px;
+	background-color:#546675;
+	background-image: url(img/img13.jpeg);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	margin: 0 auto;
+	text-align: center;
+	line-height:250px;
+	color:rgb(255,255,255);
+}
