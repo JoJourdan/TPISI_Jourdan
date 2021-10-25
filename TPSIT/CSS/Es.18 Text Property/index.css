@@ -2,13 +2,12 @@ div{
 	
 	margin: 90px/*top bottom*/ 70px/*left right */;
 	border: 5pt solid black;
-	height: 200px;
-	width: 400px;
+	width: 500px;
 	border-right-width:10px;
 	background-color:RGB(0,255,255);
 	margin: 90px/*top*/ 50px /*left*/ 70px/*bottom*/ 40px/*right */;
 	margin: 90px auto/*centrato*/;
-	padding: 20px;
+	padding: 60px;
 	
 }
 p{
@@ -19,9 +18,11 @@ p{
 	color:RGB(0,155,155);
 	letter-spacing: 2px;
 	word-spacing: 5px;
+	line-height: 50px; /*Va bene con un unica riga */
 }
 p span{
 	font-size-adjust:3 ;
+	vertical-align: middle;
 }
 p span span{
 	font-size-adjust:4 ;
