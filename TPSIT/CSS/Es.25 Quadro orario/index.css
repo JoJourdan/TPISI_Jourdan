@@ -1,0 +1,42 @@
+th{
+    background: rgb(200,200,200);
+}
+.italiano{
+    background-color: #aaf;
+}
+.sistemi{
+    background-color: #afa; 
+}
+.motoria{
+    background-color: #faa;
+}
+.inglese{
+    background-color: #ffa;
+}
+.mate{
+    background-color: #faf;
+}
+.tele{
+    background-color: #aff;
+}
+.storia{
+    background-color: #f00;
+}
+.info{
+    background-color: #0f0;
+}
+.reli{
+    background-color: #ff0;
+}
+.tecno{
+    background-color: #f0f;
+}
+.free{
+    background-color: #0ff;
+}
+td:hover{
+    background-color: #00f;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+}
