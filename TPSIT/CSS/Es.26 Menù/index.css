@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+}
+h1{
+    text-align: center;
+    margin: 25px;
+    font-size: 20pt;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: #66a;
+    color: #ccc;   
+}
+a{
+    display: block;
+    width: 160px;
+    height: 45px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 2px;
+    color: #66a;
+    border-left-width: 5px;
+    border-radius: 10px;
+    /*larghezza pulsante: 160(widht)+0(padding)+6(border)+4(margin)*/
+}
+ul{
+    border: 1px solid #999;
+    margin: 10px auto;
+    list-style: none;
+}
+ul.verticale{
+    width: 170px;
+}
+ul.orizzontale{
+    width: 700px;
+}
+ul.orizzontale li{
+    display: inline-block;
+}
