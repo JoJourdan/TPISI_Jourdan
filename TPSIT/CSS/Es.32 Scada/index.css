@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+h1{
+    text-align: center;
+    margin: 15px;
+}
+
+#wrapper{
+    width: 380px;
+    margin:30px auto;
+    padding: 40px;
+    background-color: #eee;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+#comandi{
+    /*gli elementi float e position absolute non sono limitati nel renderin della pagina*/
+    float: left;
+    width: 130px;
+}
+
+#comandi>button{
+    width: 100px;
+    height: 40px;
+    background-color: #afa;
+    display: inline-block; /*default*/
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #bbb;
+}
+
+#stati{
+    float: right;
+    width: 180px;
+    background-color: #ffc;
+}
+
+#stati>div.gemma>div{
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    display:inline-block;
+    margin:5px;
+}
+
+#stati div.gemma>div>div{
+    width: 35px;
+    height: 35px;
+    background-color: #aaa;
+    box-shadow:3px 3px #000;
+    float: right;
+    border-radius: 50%;
+}
+
+#stati div.led{
+    width: 90px;
+    height: 42px;
+    background-color: #111;
+    margin: 15px 0px 0px 15px;
+    display: inline-block;
+}
+
+#stati div.led>div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #aaa;
+    margin: 3px;
+    /*display: inline-block; Float mette il primo led a sinistra e gli altri li mette a cascata*/
+    float:left;
+}
+
+#stati div.cntCicli{
+    font-size:20pt;
+    float:right;
+    height: 42px;
+    line-height: 70px;
+    margin-right: 25px;
+}
